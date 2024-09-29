@@ -1,0 +1,17 @@
+<launch>
+    <node pkg="homework_1" type="node_B.py" name="node_B" output="screen">
+        <remap from="outgoing_B" to="incoming_C"/>
+    </node>
+
+    <node pkg="homework_1" type="node_C.py" name="node_C" output="screen">
+        <remap from="outgoing_C" to="incoming_D"/>
+    </node>
+
+    <node pkg="homework_1" type="node_D.py" name="node_D" output="screen">
+        <remap from="outgoing_D" to="incoming_A"/>
+    </node>
+
+    <node pkg="homework_1" type="node_A.py" name="node_A" output="screen">
+        <remap from="outgoing_A" to="incoming_B"/>
+    </node>
+</launch>
