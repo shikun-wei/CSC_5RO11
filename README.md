@@ -93,10 +93,12 @@ This project focuses on facial expression recognition using three methods: LBP-b
 - **ViT**: Transformer-based model leveraging global image features for high accuracy.
 
 ### Folder Structure
+```
 homework_shikunwei/
 ├── src/
     └── homework_2/
         ├── facial_expression.ipynb
+```
 
 ### Results
 - **KNN**: Lower accuracy with notable misclassifications.
