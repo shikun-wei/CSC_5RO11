@@ -82,3 +82,25 @@ This output confirms that:
 
 This demonstrates that the node-to-node communication and topic remapping are functioning correctly.
 ![Image Description](assets/homework1_terminal.png)
+
+## Homework 2 - Facial Expression Recognition
+
+This project focuses on facial expression recognition using three methods: LBP-based KNN, CNN, and Vision Transformer (ViT), to classify emotions into seven categories.
+
+### Methods
+- **LBP-based KNN**: Traditional machine learning approach using Local Binary Patterns for feature extraction.
+- **CNN**: Deep learning model implemented with PyTorch for spatial feature learning.
+- **ViT**: Transformer-based model leveraging global image features for high accuracy.
+
+### Folder Structure
+homework_shikunwei/
+├── src/
+    └── homework_2/
+        ├── facial_expression.ipynb
+
+### Results
+- **KNN**: Lower accuracy with notable misclassifications.
+- **CNN**: Improved accuracy but some confusion with similar expressions.
+- **ViT**: Highest accuracy among all methods, showcasing the effectiveness of transformer-based models.
+
+Model files are not included in the repository due to size constraints but can be downloaded in google drive https://drive.google.com/file/d/1eYonfhWd8m9WZhuqCndZSqv-gzAar42P/view?usp=drive_link.
