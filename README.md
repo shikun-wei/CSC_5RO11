@@ -107,8 +107,8 @@ homework_shikunwei/
 
 Model files are not included in the repository due to size constraints but can be downloaded in google drive https://drive.google.com/file/d/1eYonfhWd8m9WZhuqCndZSqv-gzAar42P/view?usp=drive_link.
 
-## Homework 3 - Facial Expression Recognition
-This project implements value iteration to solve Markov Decision Processes (MDP), aiming to find the optimal value function. Using Python, the algorithm iteratively updates state values based on transition probabilities, rewards, and a discount factor until convergence. The final output showcases the optimal actions and maximum expected rewards for each state.
+## Homework 3 - Reinforcement Learning
+This homework implements value iteration to solve Markov Decision Processes (MDP), aiming to find the optimal value function. Using Python, the algorithm iteratively updates state values based on transition probabilities, rewards, and a discount factor until convergence. The final output showcases the optimal actions and maximum expected rewards for each state.
 
 ### Folder Structure
 ```
