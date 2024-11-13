@@ -118,3 +118,13 @@ homework_shikunwei/
         ├── iteration.py
         └── Report_homework3.pdf
 ```
+## Homework 4 - Bayesian Network
+This homework models a medical diagnosis problem for lung diseases using Bayesian inference. The task involves diagnosing potential conditions (tuberculosis, cancer, and bronchitis) based on prior probabilities, patient information, and test results. The solution is implemented using a Bayesian network to infer probabilities of diseases given various conditions.
+
+### Folder Structure
+```
+homework_shikunwei/
+├── src/
+    └── homework_4/
+        └── Medical_diagnosis.pdf
+```
